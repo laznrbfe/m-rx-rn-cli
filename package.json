@@ -1,0 +1,37 @@
+{
+  "name": "m-rx-rn-cli",
+  "version": "1.0.0",
+  "description": "快速创建React Native的Redux模版",
+  "bin": {
+    "m-rx-rn": "./bin/index"
+  },
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "commander": "^2.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laznrbfe/m-rx-rn-cli.git"
+  },
+  "keywords": [
+    "Redux",
+    "Reducer",
+    "React-Native",
+    "React-Navigation"
+  ],
+  "author": "laznrbfe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laznrbfe/m-rx-rn-cli/issues"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "homepage": "https://github.com/laznrbfe/m-rx-rn-cli"
+}

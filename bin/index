@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+'use strict';
+
+const chalk = require('chalk');
+const program = require('commander');
+
+program
+  .version(require('../package').version)
+  .usage('<command> [options]')
+  .on('--help', printHelp)
+  .parse(process.argv);
+
+
+
+function printHelp() {
+  console.log('  [命令](Commands):');
+  console.log();
+  console.log('    create         创建一个reducer+ation模块');
+  console.log();
+  console.log('  可以通过-h(或者--help)获取所有命令及更多信息.');
+}
