@@ -1,16 +1,20 @@
 {
   "name": "m-rx-rn-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "preferGlobal": "true",
+  "mail": "laznrbfe <laznrbfe@163.com>",
   "description": "快速创建React Native的Redux模版",
   "bin": {
-    "m-rx-rn": "./bin/index"
+    "m-rx-rn": "./bin/index",
+    "app": "./app"
   },
   "dependencies": {
     "chalk": "^2.1.0",
     "commander": "^2.11.0"
   },
   "devDependencies": {
-    "eslint": "^4.8.0"
+    "eslint": "^4.8.0",
+    "inquirer": "^3.3.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
