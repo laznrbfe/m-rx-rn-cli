@@ -5,19 +5,22 @@
   "mail": "laznrbfe <laznrbfe@163.com>",
   "description": "快速创建React Native的Redux模版",
   "bin": {
-    "m-rx-rn": "./bin/index",
-    "app": "./app"
+    "m-rx-rn": "./bin/index"
   },
   "dependencies": {
     "chalk": "^2.1.0",
-    "commander": "^2.11.0"
+    "commander": "^2.11.0",
+    "left-pad": "^1.1.3",
+    "react-native-webview-autoheight": "^1.0.4"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "eslint": "^4.8.0",
     "inquirer": "^3.3.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel"
   },
   "repository": {
     "type": "git",
